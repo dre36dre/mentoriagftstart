@@ -48,5 +48,13 @@ public class Endereco {
 		this.bairro = bairro;
 	}
 
+
+	@Override
+	public String toString() {
+		return "Endereco [rua=" + rua + ", complemento=" + complemento + ", bairro=" + bairro + ", getRua()=" + getRua()
+				+ ", getComplemento()=" + getComplemento() + ", getBairro()=" + getBairro() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
 	
 }
